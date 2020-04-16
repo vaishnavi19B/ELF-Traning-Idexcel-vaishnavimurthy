@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="Formcss2.css">
+</head>
+<body>
+    <table>
+            <tr><th id="size" colspan="4">Employee Timecard </th></tr>
+        <tr>
+            <th>Day</th>
+            <th>Regular</th>
+            <th>Overtime</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>8</td>
+            <td>0</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>8</td>
+            <td>2.5</td>
+            <td>10.5</td>
+        </tr>
+        <tr>
+                <td>Wednesday</td>
+                <td>8</td>
+                <td>0</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                    <td>Thrusday</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                        <td>Friday</td>
+                        <td>8</td>
+                        <td>0</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                            <td>Saturday</td>
+                            <td>0</td>
+                            <td>5</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                                <td>Sunday</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>1</td>
+                            </tr>
+                            <tr id="c">
+                                    <td id="c">Total Weekly hours</td>
+                                    <td id="c">40</td>
+                                    <td id="c">8.5</td>
+                                    <td id="c">48.5</td>
+                                </tr>
+    </table>
+</body>
+</html>
+
+
+
+
+table{
+    width: 800px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 20px;  
+}
+table,td,th{
+    text-align: center;
+    padding: 20px;
+    color: black;
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-block-start-color: rgb(230, 81, 54);
+}
+#size{
+    text-align: center;
+    color: white;
+    background-color: rgb(238, 101, 38);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 800px;
+    height: 20px;
+    margin-top: 300px;
+    margin-left: 400px;
+    margin-right: 100px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+tr:nth-child(odd){
+    background-color:rgb(252, 206, 212);
+}
+tr:nth-child(even){
+    background-color: white;
+}
+#c{
+    background-color: rgb(60, 96, 204);
+    color: white;
+    text-align: right;
+    letter-spacing: 5px;
+}

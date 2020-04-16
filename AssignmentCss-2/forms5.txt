@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="Formcss5.css">
+</head>
+<body>
+    <form action="" method="POST">
+        <h4>Create an account</h4><br>
+        <label for="Fname"></label><input type="text" id="Fname" placeholder="UserName" name="Fname"><br><br>
+        <label for="email"></label><input type="email" id="email" placeholder="Email" name="email"><br><br>
+        <label for="password"></label><input type="password" id="password" placeholder="password" name="password"><br><br>
+        <label for="password"></label><input type="password" id="password" placeholder=" Confrim password" name="password"><br><br>
+        <label  id="e" for="file">Select your avatar: </label><input id="e" type="file" id="file" name="file"><br><br>
+        <button  id="f" type="submit">Register</button>
+</form> 
+</body>
+</html>
+
+form{
+    width: 417px;
+    height: 595px;
+    margin-top: 130px;
+    margin-left: 600px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+input[type="text"] ,input[type="email"],input[type="password"]{
+    width: 800px;
+    height: 30px;
+    text-align: left;
+    background-color:rgb(5, 5, 46);
+    font-size: 20px;
+    outline: none;
+    margin:10px;
+    padding:10px ;
+    color: rgb(204, 204, 250);
+    border-color:rgb(70, 61, 61);
+
+}
+h4{
+    font-size:30px;
+    text-align: center;
+    font-size: 30px;
+    width:380px;
+    height: 30px;
+    color:rgb(204, 204, 250);
+}
+body{
+    background-image: url('blue.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+#e{
+    color:rgb(204, 204, 250); 
+}
+ #f{
+    width: 830px;
+    height: 50px;
+    background-color:rgb(52, 161, 204);
+    font-size: 25px;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+}

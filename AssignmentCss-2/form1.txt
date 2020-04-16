@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="Formcss1.css">
+</head>
+<body>
+    <form action="" method="POST">
+            <h4>Register new account</h4><br>
+            <label for="Fname"></label><input type="text" id="Fname" placeholder="FirstName" name="Fname">
+            <label for="Fname"></label><input type="text" id="Fname" placeholder="lastName" name="Fname"><br><br>
+            <label for="name"></label><input id="size" type="text" id="name" placeholder="Name" name="name"><br><br>
+            <label for="city"></label><input id="size" type="text" id="city" placeholder="City" name="city"><br><br>
+            <label for="Phone"></label><input id="size" type="number" id="Phone" placeholder="PhoneNumber" name="Phone"><br><br>
+            <label for="email"></label><input  id="size"type="email" id="email" placeholder="Email" name="email"><br><br>
+            <button type="submit">Create Account</button>
+    </form> 
+</body>
+</html>
+
+
+
+form{
+    border:1px solid black;
+    width: 417px;
+    height: 530px;
+    margin-top: 200px;
+    margin-left: 600px;
+    border-radius: 15px;
+    text-align: left;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+input[type="text"] ,input[type="email"],input[type="number"]{
+    width: 180px;
+    height: 30px;
+    text-align: left;
+    background-color: white;
+    font-size: 14px;
+    outline: none;
+    margin: 10px;
+}
+button[type="submit"]{
+    margin: 10px;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    background-color: rgb(10, 156, 10);
+    color: white;
+    border: none;
+    position: absolute;
+    margin-left: 200px;
+}
+h4{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    margin-left:10px ;
+    margin-bottom: 10px;
+}
+#size{
+    width: 390px;
+}
