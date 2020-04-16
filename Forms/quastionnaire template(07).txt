@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h4 align="left">EMPLOYEE BENEFITS SURVEY QUESTIONNAIRE</h4>
+    To help us provide benefits that meet your needs, please complete this survey and return it to [Employee Name] <br>in Human Resources by [click to select date].
+    <br><br>
+    <div>
+        <table border="1">
+            <tr>
+                <th>Statement</th>
+                <th>Strongly Agree</th>
+                <th>Agree</th>
+                <th>Neutral</th>
+                <th>Disagree</th>
+                <th>Strongly Disagree</th>
+            </tr>
+            <tr><td colspan="6">Health Benefits</td></tr>
+            <tr><td>I am satisfied with my health plan options</td></tr>
+            <tr><td>I am satisfied with my dental plan options.</td></tr>
+            <tr><td>I am satisfied with my vision plan options.</td></tr>
+            <tr><td>I am satisfied with my long-term disability insurance.</td></tr>
+            <tr><td>I am satisfied with my short-term disability insurance.</td></tr>
+            <tr><td>I am satisfied with my options for life insurance.</td></tr>
+            <tr><td>Overall, I am satisfied with my health benefits.</td></tr>
+            <tr><td colspan="6">Financial Benefits</td></tr>
+            <tr><td>I am satisfied with my retirement plan.</td></tr>
+            <tr><td>I am satisfied with my salary</td></tr>
+            <tr><td>I am satisfied with the Employee Stock Purchase Program.</td></tr>
+            <tr><td>I am satisfied with my opportunities for promotion, raises, and bonuses.</td></tr>
+            <tr><td>Overall, I am satisfied with my financial benefits.</td></tr>
+            <tr><td colspan="6">Paid Time Off</td></tr>
+            <tr><td>I am satisfied with the number of vacation, sick, and personal days that I receive.</td></tr>
+            <tr><td>Overall, I am satisfied with my paid time off.</td></tr>
+            <tr><td colspan="6">Additional Benefits</td></tr>
+            <tr><td>I am satisfied with my continuing education and training opportunities.</td></tr>
+            <tr><td>I am satisfied with my tuition reimbursement options.</td></tr>
+            <tr><td>Overall, I am satisfied with my additional benefits</td></tr>
+            <tr><td colspan="6">Overall</td></tr>
+            <tr><td>I understand my benefit options.</td></tr>
+            <tr><td>I know where to find information about my benefits.</td></tr>
+            <tr><td>I know whom to call if I have questions about my benefits.</td></tr>
+            <tr><td>Overall, I am satisfied with my employee benefits.</td></tr>
+        </table><br>
+        <label for="comments">Add comments:</label><br>
+        <textarea name="comments"placeholder="enter here" id="comments" cols="70" rows="10"></textarea></div> 
+    </div>
+</body>
+</html>

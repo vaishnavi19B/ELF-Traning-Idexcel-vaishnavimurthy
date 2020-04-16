@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h4 align="center">Post-training evaluation questionnaire</h4>
+    <h4 align="left">Workshop evaluation form (day 1)</h4>
+    Instructions: Please give your answers or comments in writing,<br> or indicate the extent to which you gained confidence in the topics you learnt today on a scale of 1 to 5.
+    <table border="1">
+        <tr>
+            <thead>
+                <th>1. Overall evaluation of day 1
+                </th>
+            </thead>
+        </tr>
+        <tr>
+            <td>1.1</td>
+            <td>Today, what impressed me or interested me most was ... (please explain why)</td>
+        </tr>
+        <tr>
+                <td>1.2</td>
+                <td>Today, what facilitated my learning was …</td>
+            </tr>
+            <tr>
+                    <td>1.3</td>
+                    <td>The topics or issues that were not clear to me today were …</td>
+                </tr>
+                <tr>
+                        <td>1.4</td>
+                        <td>I would like the following topics to be discussed in this or future workshops: …</td>
+               </tr>
+                    <tr>
+                            <td>1.5</td>
+                            <td>My recommendations for tomorrow are ..</td>
+                    </tr>
+    </table>
+    <table border="1">
+            <tr>
+                    <th>2. To what extent did you gain confidence in the following topics you learnt today?</th>
+            </tr>
+            <tr>
+                <th colspan="2">Module 1: Background</th>
+                <th>Not at<br>all</th>
+                <th>Not<br>well</th>
+                <th>Neutral</th>
+                <th>Well</th>
+                <th>Very<br>well</th>
+            </tr>
+            <tr>
+                <td>2.1.1</td>
+                <td>The rationale of stopping MDA in relation to prevalence </td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+             </tr>
+             <tr>
+                    <td>2.1.2</td>
+                    <td>The key differences between the 2005 and 2011 editions of<br> the WHO monitoring and evaluation manuals for stopping MDA</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+             </tr>
+                <tr>
+                        <td>2.1.3</td>
+                        <td>The overall programme steps from mapping to verification </td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                     </tr>
+                     <tr>
+                            <td>2.1.4</td>
+                            <td>How can we improve this module or support you?</td>
+                     </tr>
+                     <tr>
+                <th colspan="2">Module 2: Eligibility for a TAS </th>
+                <th>Not at<br>all</th>
+                <th>Not<br>well</th>
+                <th>Neutral</th>
+                <th>Well</th>
+                <th>Very<br>well</th>
+            </tr>
+            <tr>
+                <td>2.2.1</td>
+                <td>How to calculate the programme coverage used in monitoring MDA?</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+             </tr>
+             <tr>
+                    <td>2.2.2</td>
+                    <td>The different purposes of sentinel site and<br> spot-check site surveys in monitoring and evaluation of a national programme to eliminate LF.</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+             </tr>
+                <tr>
+                        <td>2.2.3</td>
+                        <td>The pre-requirements for planning a TAS </td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                     </tr>
+                     <tr>
+                            <td>2.2.4</td>
+                            <td>How can we improve this module or support you?</td>
+                     </tr>
+                     <tr>
+                            <th colspan="2">Module 3: Evaluation unit</th>
+                            <th>Not at<br>all</th>
+                            <th>Not<br>well</th>
+                            <th>Neutral</th>
+                            <th>Well</th>
+                            <th>Very<br>well</th>
+                        </tr>
+                        <tr>
+                            <td>2.3.1</td>
+                            <td>The criteria for defining and selecting an EU </td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                         </tr>
+                         <tr>
+                                <td>2.3.2</td>
+                                <td>How can we improve this module or support you?</td>
+                        </tr>
+                        <tr>
+                                <th colspan="2">Module 4. Survey design</th>
+                                <th>Not at<br>all</th>
+                                <th>Not<br>well</th>
+                                <th>Neutral</th>
+                                <th>Well</th>
+                                <th>Very<br>well</th>
+                            </tr>
+                            <tr>
+                                <td>2.5.1</td>
+                                <td>The rationale for selecting children aged 6–7 years for a TAS</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                             </tr>
+                             <tr>
+                                    <td>2.5.2</td>
+                                    <td>How to choose a survey design and calculate sample size</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                             </tr>
+                                <tr>
+                                        <td>2.5.3</td>
+                                        <td>How to use the critical cut-off threshold for making programme decisions</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                     </tr>
+                                     <tr>
+                                            <td>2.5.4</td>
+                                            <td>How can we improve this module or support you?</td>
+                                     </tr>
+                            <tr>
+                                <th colspan="2">Module 8: Survey sample builder</th>
+                                <th>Not at<br>all</th>
+                                <th>Not<br>well</th>
+                                <th>Neutral</th>
+                                <th>Well</th>
+                                <th>Very<br>well</th>
+                            </tr>
+                            <tr>
+                                <td>2.6.1</td>
+                                <td></td>How the survey sample builder is used to select the<br> sampling strategy and sample size</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                             </tr>
+                             <tr>
+                                    <td>2.6.2</td>
+                                    <td>How to choose a survey design and calculate sample size</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                             </tr>
+                                <tr>
+                                        <td>2.6.3</td>
+                                        <td>The method of randomized site selection from<br> a numbered list of all primary schools or enumeration areas before the survey.</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                     </tr>
+                                     <tr>
+                                            <td>2.6.4</td>
+                                            <td>How can we improve this module or support you?</td>
+                                     </tr>
+                                     <tr>
+                                          <th colspan="2">3. How good was the facilitation?</th>
+                                            <th>Not at<br>all</th>
+                                            <th>Not<br>well</th>
+                                            <th>Neutral</th>
+                                            <th>Well</th>
+                                            <th>Very<br>well</th>
+                                        </tr>
+                                        <tr>
+                                            <td>3.1</td>
+                                            <td>The facilitators knew the subject matter well.</td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                         </tr>
+                                         <tr>
+                                                <td>3.2</td>
+                                                <td>The facilitators gave clear explanations of the topics.</td>
+                                                <td>1</td>
+                                                <td>2</td>
+                                                <td>3</td>
+                                                <td>4</td>
+                                                <td>5</td>
+                                         </tr>
+                                            <tr>
+                                                    <td>3.3</td>
+                                                    <td>The speed of the lectures was appropriate.</td>
+                                                    <td>too slow<br>1</td>
+                                                    <td>slow<br>2</td>
+                                                    <td>yes<br>3</td>
+                                                    <td>fast<br>4</td>
+                                                    <td> too fast<br>5</td>
+                                                 </tr>
+                                                 <tr>
+                                                        <td>3.4</td>
+                                                        <td>The facilitators welcomed questions and responded to them appropriately.</td>
+                                                        <td>1</td>
+                                                        <td>2</td>
+                                                        <td>3</td>
+                                                        <td>4</td>
+                                                        <td>5</td>
+                                                     </tr>
+                                                 <tr>
+                                                        <td>3.5</td>
+                                                        <td>How can we improve our facilitation?</td>
+                                                 </tr>
+    </table><br><br>
+    <h4 align="center">Workshop evaluation form (day 2)</h4>            
+    Instructions: Please give your answers or comments in writing or indicate the<br> extent to which you gained confidence in the topics you leant today on a scale of 1 to 5.
+    <table border="1">
+            <tr>
+                    <thead>
+                        <th>1. Overall evaluation of Day 2</th>
+                    </thead>
+            </tr>
+            <tr>
+                    <td>1.1</td>
+                    <td>Today, what impressed me or interested me most was ... (please explain why)</td>
+                    
+                </tr>
+                <tr>
+                        <td>1.2</td>
+                        <td>Today, what facilitated my learning was …</td>
+                        
+                    </tr>
+                    <tr>
+                            <td>1.3</td>
+                            <td>The topics or issues that were not clear to me today were…</td>
+                            
+                        </tr>
+                        <tr>
+                                <td>1.4</td>
+                                <td>I would like the following topics to be discussed in this or future workshops: …</td>
+                       </tr>
+                            <tr>
+                                    <td>1.5</td>
+                                    <td>My recommendations for tomorrow are ..</td>
+                            </tr>
+                            <tr>
+                        
+                    <th>2. To what extent did you gain confidence in the following topics you learnt today?</th>
+            </tr>
+            <tr>
+                <th colspan="2">Module 5: Diagnostic tests</th>
+                <th>Not at<br>all</th>
+                <th>Not<br>well</th>
+                <th>Neutral</th>
+                <th>Well</th>
+                <th>Very<br>well</th>
+            </tr>
+            <tr>
+                <td>2.4.1</td>
+                <td>How to use ICT cards and interpret the results.</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+             </tr>
+             <tr>
+                    <td>2.4.2</td>
+                    <td>How to use Brugia RapidTM tests and interpret the results</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+             </tr>
+                <tr>
+                        <td>2.4.3</td>
+                        <td>How can we improve this module or support you?</td>
+                     </tr></th>
+                            </tr>
+                            <tr>
+                                <th colspan="2">Module 9: Timetable, budget and administration </th>
+                                <th>Not at<br>all</th>
+                                <th>Not<br>well</th>
+                                <th>Neutral</th>
+                                <th>Well</th>
+                                <th>Very<br>well</th>
+                            </tr>
+                            <tr>
+                                <td>2.7.1</td>
+                                <td>The importance of allowing time to obtain ethical clearance and informed consent before a TAS </td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                             </tr>
+                             <tr>
+                                    <td>2.7.2</td>
+                                    <td>All the information needed for a school- or community-based survey.</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                             </tr>
+                                <tr>
+                                        <td>2.7.3</td>
+                                        <td>How to prepare a supply list and estimate the time and budget required to implement a survey</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                     </tr>
+                                     <tr>
+                                            <td>2.7.4</td>
+                                            <td>All the activities required for a survey and constructing a timetable</td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                         </tr>
+                                         <tr>
+                                                <td>2.7.5</td>
+                                                <td>How can we improve this module or support you?</td>
+                                        </tr>
+                                        <tr>
+                                <th colspan="2">Module 10: Field-work </th>
+                                <th>Not at<br>all</th>
+                                <th>Not<br>well</th>
+                                <th>Neutral</th>
+                                <th>Well</th>
+                                <th>Very<br>well</th>
+                            </tr>
+                            <tr>
+                                <td>2.8.1</td>
+                                <td>Composition of the team for a TAS and allocation of tasks.</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                             </tr>
+                             <tr>
+                                    <td>2.8.2</td>
+                                    <td>Daily work flow for school and village surveys.</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                             </tr>
+                                <tr>
+                                        <td>2.8.3</td>
+                                        <td>Method for following up cases found during a survey.</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                     </tr>
+                                     <tr>
+                                            <td>2.8.4</td>
+                                            <td>How can we improve this module or support you?</td>
+                                            </tr>
+                                        </th>
+                                        <tr>
+                                                <th colspan="2">Module 6: After the survey</th>
+                                                <th>Not at<br>all</th>
+                                                <th>Not<br>well</th>
+                                                <th>Neutral</th>
+                                                <th>Well</th>
+                                                <th>Very<br>well</th>
+                                            </tr>
+                                            <tr>
+                                                <td>2.10.1</td>
+                                                <td>The activities to be conducted after ‘passing’ or ‘failing’ a TAS </td>
+                                                <td>1</td>
+                                                <td>2</td>
+                                                <td>3</td>
+                                                <td>4</td>
+                                                <td>5</td>
+                                             </tr>
+                                             <tr>
+                                                    <td>2.10.2</td>
+                                                    <td>How should post-MDA surveillance be planned, assuming that the target EU ‘passed’ the survey?</td>
+                                                    <td>1</td>
+                                                    <td>2</td>
+                                                    <td>3</td>
+                                                    <td>4</td>
+                                                    <td>5</td>
+                                             </tr>
+                                                <tr>
+                                                        <td>2.10.3</td>
+                                                        <td>How can we improve this module or support you?</td>
+                                                </tr>
+                                                <tr>
+                                                        <th colspan="2">Module 7: Verification of elimination</th>
+                                                        <th>Not at<br>all</th>
+                                                        <th>Not<br>well</th>
+                                                        <th>Neutral</th>
+                                                        <th>Well</th>
+                                                        <th>Very<br>well</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2.11.1</td>
+                                                        <td>The information that must be collected for verifying interruption of transmission </td>
+                                                        <td>1</td>
+                                                        <td>2</td>
+                                                        <td>3</td>
+                                                        <td>4</td>
+                                                        <td>5</td>
+                                                     </tr>
+                                                     <tr>
+                                                            <td>2.11.2</td>
+                                                            <td>The process from a TAS to verification of LF elimination </td>
+                                                            <td>1</td>
+                                                            <td>2</td>
+                                                            <td>3</td>
+                                                            <td>4</td>
+                                                            <td>5</td>
+                                                     </tr>
+                                                        <tr>
+                                                                <td>2.11.3</td>
+                                                                <td>Please identify and explain the main challenges during preparation of a dossier.</td>
+                                                        </tr>
+                                                        <tr>
+                                                                <th colspan="2">3. How good was the facilitation?</th>
+                                                                  <th>Not at<br>all</th>
+                                                                  <th>Not<br>well</th>
+                                                                  <th>Neutral</th>
+                                                                  <th>Well</th>
+                                                                  <th>Very<br>well</th>
+                                                              </tr>
+                                                              <tr>
+                                                                  <td>3.1</td>
+                                                                  <td>The facilitators knew the subject matter well.</td>
+                                                                  <td>1</td>
+                                                                  <td>2</td>
+                                                                  <td>3</td>
+                                                                  <td>4</td>
+                                                                  <td>5</td>
+                                                               </tr>
+                                                               <tr>
+                                                                      <td>3.2</td>
+                                                                      <td>The facilitators gave clear explanations of the topics.</td>
+                                                                      <td>1</td>
+                                                                      <td>2</td>
+                                                                      <td>3</td>
+                                                                      <td>4</td>
+                                                                      <td>5</td>
+                                                               </tr>
+                                                                  <tr>
+                                                                          <td>3.3</td>
+                                                                          <td>The speed of the lectures was appropriate.</td>
+                                                                          <td>too slow<br>1</td>
+                                                                          <td>slow<br>2</td>
+                                                                          <td>yes<br>3</td>
+                                                                          <td>fast<br>4</td>
+                                                                          <td> too fast<br>5</td>
+                                                                       </tr>
+                                                                       <tr>
+                                                                              <td>3.4</td>
+                                                                              <td>The facilitators welcomed questions and responded to them appropriately.</td>
+                                                                              <td>1</td>
+                                                                              <td>2</td>
+                                                                              <td>3</td>
+                                                                              <td>4</td>
+                                                                              <td>5</td>
+                                                                           </tr>
+                                                                       <tr>
+                                                                              <td>3.5</td>
+                                                                              <td>How can we improve our facilitation?</td>
+                                                                       </tr>
+                                                    
+
+
+    </table>            
+                    
+             
+
+    
+</body>
+</html>

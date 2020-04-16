@@ -1,0 +1,257 @@
+
+BACKGROUNDS:                                                                                                                                                                                                                                                   CSS TAGS
+
+
+                                      TAGS                                                                                                                                                       DISCRIPTION
+
+            1. Animation properties
+               
+               Animation                                                                                                                                                        Spacifies the keyframe based animations.
+               Animation-delay                                                                                                                                              Spacifies when the animation start.                     
+               Animation-direction                                                                                                                                         Specifies whether the animation should play in reverse on alternate cycles or not.
+               Animation-duration                                                                                                                                         Specifies the number of seconds or milliseconds an animation should take to complete one cycle.
+               Animation-fill-mode                                                                                                                                         Specifies how a CSS animation should apply styles to its target before and after it is executing.
+               Animation-iteration-count 	                                                                                                                        Specifies the number of times an animation cycle should be played before stopping.
+               Animation-name 	                                                                                                                                        Specifies the name of keyframes defined animations that should be applied to the selected element.
+               Animation-play-state 	                                                                                                                        Specifies whether the animation is running or paused.
+               Animation-timing-function 	                                                                                                                        Specifies how a CSS animation should progress over the duration of each cycle.
+        2.  Background properties
+
+            Background	                                                                                                                                                         Defines a variety of background properties within one declaration.
+            Background-attachment	                                                                                                                         Specify whether the background image is fixed in the viewport or scrolls.
+            Background-clip 	                                                                                                                                         Specifies the painting area of the background.
+            Background-color	                                                                                                                                         Defines an element's background color.
+            Background-image	                                                                                                                                         Defines an element's background image.
+            Background-origin 	                                                                                                                                         Specifies the positioning area of the background images.
+            Background-position	                                                                                                                                         Defines the origin of a background image.
+            Background-repeat	                                                                                                                                         Specify whether/how the background image is tiled.
+            Background-size 	                                                                                                                                         Specifies the size of the background images.
+
+    3.   Border properties
+        
+           Border	                                                                                                                                                        Sets the width, style, and color for all four sides of an element's border.
+          Border-bottom	                                                                                                                                        Sets the width, style, and color of the bottom border of an element.
+          Border-bottom-color	                                                                                                                                        Sets the color of the bottom border of an element.
+          Border-bottom-left-radius 	                                                                                                                       Defines the shape of the bottom-left border corner of an element.
+         Border-bottom-right-radius 	                                                                                                                       Defines the shape of the bottom-right border corner of an element.
+         Border-bottom-style	                                                                                                                                       Sets the style of the bottom border of an element.
+         Border-bottom-width	                                                                                                                                       Sets the width of the bottom border of an element.
+        Border-color	                                                                                                                                                       Sets the color of the border on all the four sides of an element.
+        Border-image 	                                                                                                                                                       Specifies how an image is to be used in place of the border styles.
+        Border-image-outset 	                                                                                                                                       Specifies the amount by which the border image area extends beyond the border box.
+        Border-image-repeat 	                                                                                                                                       Specifies whether the image-border should be repeated, rounded or stretched.
+        Border-image-slice 	                                                                                                                                       Specifies the inward offsets of the image-border.
+        Border-image-source 	                                                                                                                                       Specifies the location of the image to be used as a border.
+       Border-image-width 	                                                                                                                                       Specifies the width of the image-border.
+       Border-left	                                                                                                                                                       Sets the width, style, and color of the left border of an element.
+      Border-left-color	                                                                                                                                                       Sets the color of the left border of an element.
+      Border-left-style	                                                                                                                                                       Sets the style of the left border of an element.
+      Border-left-width	                                                                                                                                       Sets the width of the left border of an element.
+     Border-radius 	                                                                                                                                                       Defines the shape of the border corners of an element.
+     Border-right	                                                                                                                                                       Sets the width, style, and color of the right border of an element.
+     Border-right-color	                                                                                                                                       Sets the color of the right border of an element.
+     Border-right-style	                                                                                                                                       Sets the style of the right border of an element.
+     Border-right-width	                                                                                                                                       Sets the width of the right border of an element.
+     Border-style	                                                                                                                                                       Sets the style of the border on all the four sides of an element.
+     Border-top	                                                                                                                                                       Sets the width, style, and color of the top border of an element.
+     Border-top-color     									       Sets the color of the top border of an element.
+     Border-top-left-radius 									       Defines the shape of the top-left border corner of an element.
+    Border-top-right-radius 									       Defines the shape of the top-right border corner of an element.
+    Border-top-style										       Sets the style of the top border of an element.
+    Border-top-width										       Sets the width of the top border of an element.
+
+4.   Color properties
+
+      Color											       Specify the color of the text of an element.
+     Opacity 									   	       Specifies the transparency of an element
+ 
+
+5.  Diemensions properties
+
+       Height      										       Specify the height of an element.
+       Max-height										       Specify the maximum height of an element.
+       Max-width										       Specify the maximum width of an element.
+       Min-height										       Specify the minimum height of an element.
+       Min-width									                       Specify the minimum width of an element.
+       Width										       Specify the width of an element.
+ 
+6.   Content properties
+
+      Content										      Inserts generated content.
+      Quotes										     Specifies quotation marks for embedded quotations.
+     Counter-reset	 									     Creates or resets one or more counters.
+     Counter-increment									     Increments one or more counter values.
+
+7.   Flexibal box layout
+
+     Align-content 										    Specifies the alignment of flexible container's items within the flex container.
+     Align-items 										    Specifies the default alignment for items within the flex container.
+    Align-self 										   Specifies the alignment for selected items within the flex container.
+    Flex 											   Specifies the components of a flexible length.
+    Flex-basis 										   Specifies the initial main size of the flex item.
+    Flex-direction 										  Specifies the direction of the flexible items.
+    Flex-flow 										 A shorthand property for the flex-direction and the flex-wrap properties.
+    Flex-grow 										 Specifies how the flex item will grow relative to the other items inside the flex container.
+    Flex-shrink 										Specifies how the flex item will shrink relative to the other items inside the flex container.
+    Flex-wrap 										Specifies whether the flexible items should wrap or not.
+    Justify-content 						   				Specifies how flex items are aligned along the main axis of the flex container after any flexible lengths and auto margins have been resolved.
+    Order 											Specifies the order in which a flex items are displayed and laid out within a flex container.
+ 
+8.   Font properties
+ 
+     Font										 	Defines a variety of font properties within one declaration.
+     Font-family										Defines a list of fonts for element.
+     Font-size										Defines the font size for the text.
+     Font-size-adjust 										Preserves the readability of text when font fallback occurs.
+     Font-stretch 										Selects a normal, condensed, or expanded face from a font.
+     Font-style										Defines the font style for the text.
+     Font-variant										Specify the font variant.
+     Font-weight										Specify the font weight of the text.
+
+9.   List properties
+
+     List-style										Defines the display style for a list and list elements.
+     List-style-image										Specifies the image to be used as a list-item marker.
+     List-style-position									Specifies the position of the list-item marker.
+     List-style-type										Specifies the marker style for a list-item.
+
+10.  Margin properties
+
+      Margin										Sets the margin on all four sides of the element.
+      Margin-bottom										Sets the bottom margin of the element.
+      Margin-left										Sets the left margin of the element.
+      Margin-right										Sets the right margin of the element.
+     Margin-top										Sets the top margin of the element.
+
+11.  Coloumn properties
+
+     Column-count 										Specifies the number of columns in a multi-column element.
+     Column-fill 										Specifies how columns will be filled.
+    Column-gap 										Specifies the gap between the columns in a multi-column element.
+    Column-rule 										Specifies a straight line, or "rule", to be drawn between each column in a multi-column element.
+    Column-rule-color 									Specifies the color of the rules drawn between columns in a multi-column layout.
+    Column-rule-style 									Specifies the style of the rule drawn between the columns in a multi-column layout.
+   Column-rule-width 									Specifies the width of the rule drawn between the columns in a multi-column layout.
+   Column-span 										Specifies how many columns an element spans across in a multi-column layout.
+   Column-width 										Specifies the optimal width of the columns in a multi-column element.
+   Columns 										A shorthand property for setting column-width and column-count properties.
+
+12.  Outline properties
+
+      Outline										Sets the width, style, and color for all four sides of an element's outline.
+     Outline-color										Sets the color of the outline.
+     Outline-offset 										Set the space between an outline and the border edge of an element.
+    Outline-style										Sets a style for an outline.
+    Outline-width										Sets the width of the outline.
+
+13. Padding properties
+
+       Padding										Sets the padding on all four sides of the element.
+      Padding-bottom										Sets the padding to the bottom side of an element.
+     Padding-left										Sets the padding to the left side of an element.
+     Padding-right										Sets the padding to the right side of an element.
+     padding-top										Sets the padding to the top side of an element.
+
+14. Table properties
+
+     Border-collapse										Specifies whether table cell borders are connected or separated.
+     Border-spacing										Sets the spacing between the borders of adjacent table cells.
+     Baption-side										Specify the position of table's caption.
+     Empty-cells										Show or hide borders and backgrounds of empty table cells.
+     Table-layout										Specifies a table layout algorithm.
+
+15. Text properties
+
+     Direction										Define the text direction/writing direction.
+    Tab-size 										Specifies the length of the tab character.
+   Text-align										Sets the horizontal alignment of inline content.
+   Text-align-last 										Specifies how the last line of a block or a line right before a forced line break is aligned when text-align is justify.
+   Text-decoration										Specifies the decoration added to text.
+   Text-decoration-color 									Specifies the color of the text-decoration-line.
+   Text-decoration-line 									Specifies what kind of line decorations are added to the element.
+   Text-decoration-style 									Specifies the style of the lines specified by the text-decoration-line property
+   Text-indent										Indent the first line of text.
+   Text-justify 										Specifies the justification method to use when the text-align property is set to justify.
+   Text-overflow 										Specifies how the text content will be displayed, when it overflows the block containers.
+   Text-shadow 										Applies one or more shadows to the text content of an element.
+  Text-transform										Transforms the case of the text.
+  Line-height										Sets the height between lines of text.
+  Vertical-align										Sets the vertical positioning of an element relative to the current text baseline.
+  Letter-spacing										Sets the extra spacing between letters.
+  Word-spacing										Sets the spacing between words.
+  White-space										Specifies how white space inside the element is handled.
+  Word-break 										Specifies how to break lines within words.
+  Word-wrap 										Specifies whether to break words when the content overflows the boundaries of its container.
+
+16. Transformation properties
+    
+     Backface-visibility 									Specifies whether or not the "back" side of a transformed element is visible when facing the user.
+    Perspective 										Defines the perspective from which all child elements of the object are viewed.
+    Perspective-origin 									Defines the origin (the vanishing point for the 3D space) for the perspective property.
+   Transform 										Applies a 2D or 3D transformation to an element.
+   Transform-origin 										Defines the origin of transformation for an element.
+   Transform-style 										Specifies how nested elements are rendered in 3D space.
+
+17.  Transition properties
+
+       Transition 	 									Defines the transition between two states of an element.
+      Transition-delay 									Specifies when the transition effect will start.
+      Transition-duration									Specifies the number of seconds or milliseconds a transition effect should take to complete.
+      Transition-property									 Specifies the names of the CSS properties to which a transition effect should be applied.
+      Transition-timing-function 								Specifies the speed curve of the transition effect.
+
+18.  Visual properties  
+
+     Display										Specifies how an element is displayed onscreen.
+     Position										Specifies how an element is positioned.
+    Top											Specify the location of the top edge of the positioned element.
+    Right											Specify the location of the right edge of the positioned element.
+    Bottom											Specify the location of the bottom edge of the positioned element.
+    Left											Specify the location of the left edge of the positioned element.
+    Float											Specifies whether or not a box should float.
+    Clear											Specifies the placement of an element in relation to floating elements.
+    Z-index											Specifies a layering or stacking order for positioned elements.
+     Overflow										Specifies the treatment of content that overflows the element's box.
+    Overflow-x 										Specifies how to manage the content when it overflows the width of the element's content area.
+   Overflow-y 										Specifies how to manage the content when it overflows the height of the element's content area.
+   Resize 											Specifies whether or not an element is resizable by the user.
+  Clip											Defines the clipping region.
+  Visibility											Specifies whether or not an element is visible.
+  Cursor											Specify the type of cursor.
+  Box-shadow 										Applies one or more drop-shadows to the element's box.
+   Box-sizing 										Alter the default CSS box model.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sss
