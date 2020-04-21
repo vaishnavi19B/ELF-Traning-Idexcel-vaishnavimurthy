@@ -1,0 +1,29 @@
+body{
+    background-image: url('bp9.jpeg');
+    background-size: 1700px;
+    background-repeat: no-repeat;
+}
+h2{
+color:rgb(235, 91, 91);
+text-transform: capitalize;
+font-size: 60px;
+text-align: center;
+margin-top: 60px;
+}
+.a{
+    color:rgb(250, 68, 68);
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    border: 1px solid rgb(22, 21, 21);
+    margin-left: 1500px;
+}
+img{
+    width: 250px;
+    height: 300px;
+    border: 1px solid rgb(248, 243, 243);
+    padding: 10px;
+    margin:5px;
+    transition: all 2s;
+}

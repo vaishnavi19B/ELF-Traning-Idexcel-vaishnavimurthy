@@ -1,0 +1,29 @@
+body{
+    background-image:url('bp1.jpeg');
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+}
+h2{
+color:rgb(235, 91, 91);
+text-transform: capitalize;
+font-size: 60px;
+text-align: center;
+margin-top: 60px;
+}
+.a{
+    color:rgb(250, 68, 68);
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    border: 1px solid rgb(22, 21, 21);
+    margin-left: 1500px;
+}
+p{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(5, 61, 110);
+    margin: 10px;
+    word-spacing: 1px;
+}
