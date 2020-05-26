@@ -1,0 +1,86 @@
+1) LIST ALL THE EMPLOYEES WHOSE SALARY IS NULL .
+ select ename from employee where salary=null;
+2) LIST ALL THE EMPLOYEES WHO DON’T HAVE A DEPT NO
+ select ename from employee where deptno=null;
+3) LIST ALL THE SALESMEN IN DEPT 30.
+select ename from employee where desgnation='salesman' and deptno=30;
+4) LIST ALL THE SALESMEN IN DEPT NUMBER 30 AND HAVING SALARY GREATER THAN 1500.
+select ename from employee where desgnation='salesman' and deptno=30 and salary>1500;
+5) LIST ALL THE EMPLOYEES WHOSE NAME STARTS WITH ‘S’ OR ‘A’.
+ select ename from employee where ename like 's%' or ename like 'a%';
+6) LIST ALL THE EMPLOYEES EXCEPT THOSE WHO ARE WORKING IN DEPT 10 & 20. 
+select ename from employee where not deptno=10 and not deptno=20;
+7) LIST THE EMPLOYEES WHOSE NAME DOES NOT START WITH ‘S’
+select ename from employee where ename not like 's%';
+8) LIST ALL THE EMPLOYEES WHO ARE HAVING REPORTING MANAGERS IN DEPT 10.
+select ename from employee where desgnation='manager' and deptno=10;
+9) LIST ALL THE EMPLOYEES WHOSE SALARY IS NULL AND WORKING AS CLERK.
+select ename from employee where salary=null and desgnation='clerk';
+11) LIST ALL THE SALESMEN IN DEPT 30 WITH SAL MORE THAN 2450.
+select ename from employee where deptno=30 and  salary>2450 and desgnation='salesman';
+12) LIST ALL THE ANALYST IN DEPT NUMBER 20 AND HAVING SALARY GREATER THAN 2500.
+select ename from employee where desgnation='analyst' and deptno=30 and salary>2500;
+13) LIST ALL THE EMPLOYEES WHOSE NAME STARTS WITH ‘M’ OR ‘J’
+ select ename from employee where ename like 'm%' or ename like 'j%';
+14) LIST ALL THE EMPLOYEES WITH ANNUAL SALARY EXCEPT THOSE WHO ARE WORKING IN DEPT 30 .
+select ename,annual_salary from employee where not deptno=30;
+15) LIST THE EMPLOYEES WHOSE NAME DOES NOT END WITH ‘ES’ OR ‘R’.
+select ename from employee where ename  not like '%es' or ename like '%j';
+16) LIST ALL THE EMPLOYEES WHO ARE HAVING REPORTING MANAGERS IN DEPT 10 ALONG WITH 10% HIKE IN SALARY.
+select ename from employee desfnation='manager' and deptno=10 and salalry=10/100*salary;
+17) DISPLAY ALL THE EMPLOYEE WHO ARE ‘SALESMAN’S HAVING ‘E’ AS THE LAST BUT ONE CHARACTER  IN ENAME BUT SALARY HAVING EXACTLY 4 CHARACTER.
+ select ename from employee where desgnation='salesman' and ename like '%e_' and cast(salary as varchar) like '____';
+18) DISPLAY ALL THE EMPLOYEE WHO ARE JOINED AFTER YEAR 81.
+select ename from employee where hiredate>'1981-12-31';
+19) DISPLAY ALL THE EMPLOYEE WHO ARE JOINED IN FEB.
+ select ename from employee where hiredate='2020-02-01';
+20) LIST THE EMPLOYEES WHO ARE NOT WORKING AS MANAGERS AND CLERKS IN DEPT 10 AND 20 WITH A SALARY IN THE RANGE OF 1000 TO 3000
+select ename from employee where not desgnation='manager' and  desgnation='clerk' and deptno in(10,20) and salalry btween 1000 and 2000;
+21) LIST THE EMPLOYEES WHOSE SALARY NOT IN THE RANGE OF 1000 TO 2000 AND WORKING IN DEPT 10,20 OR 30 EXCEPT ALL SALESMEN.
+select ename from employee where (salary not between 1000 and 2000) and deptno in(10,20,30) and desgnation not in('salesman');
+22) LIST THE DEPARTMENT NAMES WHICH ARE HAVING LETTER ‘O’ IN THEIR LOCATIONS AS WELL AS THEIR DEPARTMENT NAMES.
+select deptname from employee where locition like '%o%' and deptname like '%o%';
+23) DISPLAY ALL THE EMPLOYEES WHOSE JOB HAS STRING ‘MAN’ IN IT.
+select ename,desgnation from employee where desgnation like '%man%';
+24)LIST THE EMPLOYEES WHO ARE HIRED AFTER 82 AND BEFORE 87.
+ select ename from employee where hiredate between '1982-12-31' and '1987-01-01';
+25)WAQTD ALL THE DETAILS OF EMPLOYEES HIRED IN NOVEMBER AND DECEMBER.
+select ename from employee where hiredate in('2019-11-01','2019-12-01');
+26)LIST ALL THE EMPLOYEE NAMES AND COMISSION FOR THOSE EMPLOYEES WHO EARN COMISSION MORE THAN THEIR SALARY.
+select ename,commission from employee where comission>salary;
+27)WAQTD NAME AND DESIGNATION FOR ALL THE EMPLOYEES HAVING REPORTING MANAGERS AND ALSO THRIE NAMES STARTING WITH ‘S’
+slect ename,desgnation from employee where desgnation='manager' and ename like 's%';
+28)WAQTD NAME AND SALARY OF ALL THE EMPLOYEES IF THEIR ANNUAL SALARY ENDS WITH ‘0’ .
+select ename,salary from employee where cast (annual_salary as varchar) like '%0';
+29)WAQTD NAME OF THE EMPLOYEE HAVING ATLEAST 2L’s IN HIS NAME .
+ select ename from employee where ename like '%2l%';
+30)WAQTD NAME OF THE EMPLOYEES WHOS NAME STARTS WITH A ‘VOWEL’
+ select ename from employee where ename like 'a%' or ename like 'e%' or ename like 'i%' or ename like 'o%' or  ename like 'u%';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
