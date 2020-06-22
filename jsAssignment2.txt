@@ -1,0 +1,304 @@
+EASY:
+1.Bitwise operator
+
+function bitwiseAND(n1,n2){
+return n1&n2;
+}
+console.log(bitwiseAND(6,23));
+function bitwiseOr(n1,n2){
+return n1|n2;
+}
+console.log(bitwiseOr(6,23));
+function bitwiseXor(n1,n2){
+return n1^n2;
+}
+console.log(bitwiseXor(6,23));
+
+2.Matchsticks houses
+function matchsticks(step){
+if (step==0){
+return 0;
+}else{
+return (step*6)-(step-1);
+}
+}
+
+3.Add up single numbers
+ function addup(num){
+var sum=0;
+for(var i=1;i<=num;i++){
+sum=sum+1;
+}
+return sum;
+}
+
+4. Heighest digit
+const highdig=num=>{
+num=num.tostring();
+return math.max(num);
+};
+
+5.Largest among two 
+
+function larger(f,g){
+if(f()===g()){
+return 'neither';
+}
+if(f()>g()){
+return'f';
+}
+return'g';
+}
+console.log(larger(200,199));
+
+6.is it nested array or not.
+function nestarray(arr1,arr2){
+return math.min(arr1)>math.min(arr2)&& math.max(arr1)<math.max(arr2)
+}
+
+7.find the smallest and biggest
+
+function smlbig(arr){
+const sml=math.min(arr);
+const big=math.max(arr);
+return [sml,big];
+}
+
+8.numbers of squares in grid
+function numsqr(n){
+return (n*(n+1)*(2*n+1)/6)
+}
+
+9.number to base.
+function binary(decimal) {
+ return decimal.tostring(2)
+}
+ 10. is it for milk or cookies.
+function milkorcookie(date){
+return date.getmonth()==11 && date.getdate()==24;
+}
+
+MEDIUM
+
+1.how much is true
+
+function counttrue(lst){
+var count=0;
+for(var i=0;i<lst.length;i++){
+if(lst[i]=== true){
+count++;
+}
+}
+return count;
+}
+
+2.redundent function:
+function redundent(str){
+return function(){
+return str;
+}
+}
+
+3.Factor chain.
+function factorychain(arr){
+for (var i=0;i<arr.length0-1;i++){
+if((arr[i+1] % arr[i]))
+return false
+}
+return true
+}
+
+4.converting objects to array
+function toarray(obj){
+var finalarr=[];
+for (var i in obj){
+a.push([i,obj[i]]);
+}
+return finalarr;
+}
+
+5.triangular number sequence.
+ function triangle(n){
+var a=1;
+var num=1;
+while(a!=n){
+a++;
+num=num+a;
+}
+return num;
+}
+
+6.clone a list
+function clone(arr){
+var newarr=[arr];
+newarr.push(arr)
+return newarr;
+}
+
+7.adding suffixes
+function suffix(suff){
+return function(y){
+return y+suff;
+}
+}
+
+8.concatenate variable number of input arrays.
+function concat(arg){
+var result=[];
+return result.concat(arg)
+}
+
+9.array of multiples.
+function arrtomulti(num,length){
+var arr=[];
+for(var i=1;i<=length;i++){
+var numb=num*i;
+arr.push(number)
+}
+return arr;
+}
+
+10. return objects keys and values.
+
+function keyval(obj)(
+var arr1=[],arr=[];
+for (var key in obj){
+arr1.push(key)'
+arr2.push(obj[key])
+}
+return [arr1,arr2]
+}
+
+11.even or odd number factors.
+ function factor(num){
+var sum=0;
+for(var i=0;i<=num;i++){
+if(num%2==0){
+sum=sum+1;
+}
+}
+if(sum % 2 ==0){
+return "even";
+}
+else{
+return "odd";
+}
+}
+
+12.integer in range?
+function withinrange(n,lower,upper){
+if(num.isinteger(n)){
+if(lower<= n && n<upper){
+return true;
+}else{
+return false;
+}
+}else{
+return false;
+}
+}
+
+13.square every digit.
+function square(n){
+const str=n+"";
+const strArr=str.split("");
+var numberstr="";
+for(var num of strArr){
+numberstr=numberstr(num*num);
+}
+return(number(numberdtr))
+}
+
+14.sum of peoples budget.
+function getbud(arr){
+ var s=0;
+for (var i=0;i<arr.length;i++){
+s=s+arr[i].budget;
+}
+return s;
+}
+
+15.fix the error value vs refference types.
+function equal(arr1,arr2){
+for(var i=0;i<arr1.length;i++){
+if(arr1[i]!==arr2[i]){
+return false;
+}
+}
+return true;
+}
+
+16.basic calcultor.
+function calculator(num1,operator,num2){
+if(operator =='+') return num1+num2;
+if(operator =='-') return num1-num2;
+if(operator =='*') return num1*num2;
+if(operator =='/' && num2!=0)
+ return num1/num2;
+else
+return "cant divide by 0";
+}
+
+17. replace vowel with another charcter.
+function replacevowel(word){
+return word.replace(/[aeiou]/g.(x)==>{
+var t=''
+switch(x){
+case 'a':t='1';
+            break;
+case 'e':t='2';
+            break;
+case 'i':t='3';
+            break;
+case 'o':t='4';
+            break;
+case 'u':t='5';
+            break;
+}
+return t;
+})
+}
+
+18.hitting the jackpot.
+
+function jackpot(result){
+return result[2]=== result[3] &&  result[0]===  result[1] &&  result[1]=== result[3];
+}
+
+19.Alzebra sequence boxes.
+function boxseq(step){
+if(step===0){
+treturn 0;
+}
+if(step%2==0){
+return boxseq(step -1)-1;
+}else{
+return boxseq(step-1)+3;
+}
+}
+
+20.doubled pay
+function doublepay(n){
+if(n===1) return 1;
+var pay=1;
+var save=1;
+for(var i=1;i<n;i++){
+pay=pay*2;
+save=save+pay;
+}
+return save;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
