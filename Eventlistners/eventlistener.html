@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dm{
+            float:right;
+            margin-left: 500px;
+            margin-bottom:900px;
+        }
+        .db{
+            float: left;
+           margin-top: 100px;
+        }
+        
+        body{
+            background-color: cadetblue;  
+            color: brown;
+            font-size: 20px; 
+            font-family: cursive;     
+        }
+        .c{
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            border-color: coral;
+        }
+        .btn{
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            border-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="db">
+<h1>TV SERIES</h1>
+<ul id="demo">
+    <li>Friends</li>
+    <li>Game of thrones</li>
+    <li>The originals</li>
+    <li>The vampire daires</li>
+</ul>
+<input class="c" type="text" name="shows" placeholder="Enter here.." id="shows">
+<button class="btn"  style="font-family: cursive; color: brown;" type="submit" id="in">INSERT</button>
+<button class="btn"   id="di" style="font-family: cursive; color: brown; ">DELETE</button>
+    </div>
+    <div class="dm">
+        <h1>OTT Platfrom</h1>
+        <ul id="d">
+        <li>Netflix</li>
+        <li>Amazon prime</li>
+        </ul>
+    <input type="text" class="c" placeholder="Enter here..." name="ott" id="ott">
+<button type="submit" id ="inn" style="font-family: cursive; color: brown; " class="btn">INSERT</button>
+<button class="btn" id="dii" style="font-family: cursive; color: brown; ">DELETE</button>
+</div>
+</body>
+<script src="/eventlistener.js"></script>
+</html>

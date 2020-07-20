@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dm{
+            float:right;
+            margin-left: 500px;
+            margin-bottom:900px;
+        }
+        .db{
+            float: left;
+           margin-top: 100px;
+        }
+        
+        body{
+            background-color: cadetblue;  
+            color: brown;
+            font-size: 20px; 
+            font-family: cursive;     
+        }
+        .c{
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            border-color: coral;
+        }
+        .btn{
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            border-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="db">
+<h1>TV SERIES</h1>
+<ul id="demo">
+    <li onclick="del1(this)">Friends</li>
+    <li onclick="del1(this)">Game of thrones</li>
+    <li onclick="del1(this)">The originals</li>
+    <li onclick="del1(this)">The vampire daires</li>
+</ul>
+<input class="c" type="text" name="shows" placeholder="Enter here.." id="shows">
+<input class="c"  style="font-family: cursive; color: brown; "type="submit" onclick="enter()" value="INSERT">
+<button class="btn" style="font-family: cursive; color: brown; " onclick="del()">DELETE</button>
+    </div>
+    <div class="dm">
+        <h1>OTT Platfrom</h1>
+        <ul id="d">
+        <li onclick="del2(this)">Netflix</li>
+        <li onclick="del2(this)">Amazon prime</li>
+        </ul>
+    <input type="text" class="c" placeholder="Enter here..." name="ott" id="ott">
+<input type="submit"style="font-family: cursive; color: brown; " class="c" onclick="enterelement()" value="INSERT">
+<button class="btn" style="font-family: cursive; color: brown; " onclick="delelement()">DELETE</button>
+</div>
+</body>
+<script src="/assignment4.js"></script>
+</html>
